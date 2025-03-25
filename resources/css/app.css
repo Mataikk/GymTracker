@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Style de base pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Style de la table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des en-têtes de table */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style des cellules de table */
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style de la ligne de survol de la table */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Style pour le premier et dernier élément de la table */
+tr:first-child th {
+    border-top: 2px solid #4CAF50;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Style de l'élément de pagination ou autres actions (si nécessaire) */
+.x-app-layout {
+    padding: 20px;
+}
+
+/* Style des boutons (si ajoutés dans le futur) */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
